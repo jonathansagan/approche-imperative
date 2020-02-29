@@ -10,16 +10,20 @@ public class AffichageInverse {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
 		}
+		System.out.println("\n");
 // affichage inverse
 		for (int i = array.length - 1; i >= 0; i--) {
 			System.out.println(array[i]);
 		}
+		System.out.println("\n");
 // copier un tableau dans un autre tableau
-		 
-		int[] arrayCopy = array.clone();  // t2 pointe sur un nouveau tableau copie de t1        
-		arrayCopy[ 0 ] = 1; // on affecte 1 à la première cellule de t2                         
-		System.out.println(arrayCopy[ 0 ]); // affiche toujours 1. t1 n'est pas modifié
-		
+
+		int[] arrayCopy = new int[array.length];
+		for (int i = 0; i < array.length; i++) {
+			;
+			arrayCopy [i]= array[i];
+			System.out.println(arrayCopy[i]);
+		}
 
 	}
 
