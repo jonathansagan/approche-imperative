@@ -14,7 +14,7 @@ public class InteractifPlusGrand {
 
 		System.out.println("Entrez un nombre : ");
 		int max = saisie.nextInt();
-		;
+		
 
 		for (int i = 1; i < 10; i++) {
 
