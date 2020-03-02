@@ -13,6 +13,6 @@ public class RechercheMin {
 			}
 
 		}
-		System.out.println("le minimum est : "+min);
+		System.out.println("le minimum est : " + min);
 	}
 }
